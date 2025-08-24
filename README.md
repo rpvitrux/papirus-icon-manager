@@ -1,6 +1,6 @@
 # Papirus Icon Manager
 
-A comprehensive tool to manage and verify Papirus icon theme usage across all Linux package managers (APT, Snap, Flatpak).
+Manage and verify Papirus icon theme usage across all Linux package managers (APT, Snap, Flatpak).
 
 ## Features
 
@@ -28,10 +28,4 @@ python3 papirus_icon_manager.py --scan --fix --auto
 
 ```bash
 python3 papirus_icon_manager.py --scan --fix
-```
-
-### Debug mode (verbose output)
-
-```bash
-python3 papirus_icon_manager.py --scan --debug
 ```
